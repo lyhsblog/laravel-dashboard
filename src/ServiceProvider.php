@@ -52,9 +52,9 @@ class ServiceProvider extends RouteServiceProvider
      */
     protected function mapWebRoutes()
     {
-        if($route = $this->getRoutes()->getByName("dashboard")) {
+        if($this->getRoutes()->getByName("dashboard")) {
             Log::debug("attach middleware->".DashboardView::class.", ON->".static::class.", line->".__LINE__);
-            $route->middleware(['dashboard.view']);
+            $this->getRoutes()->getByName("dashboard")->middleware(['dashboard.view']);
         }
     }
 }
