@@ -18,6 +18,6 @@ class DashboardView
     {
         Log::info("hit middleware -> ".static::class.", line -> ".__LINE__);
         $next($request);
-        return Response::view("dashboard::dashboard.dashboard");
+        return Response::view("dashboard.dashboard");
     }
 }
