@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ybzc\\Laravel\\Dashboard\\ServiceProvider"
+              "Ybzc\\Laravel\\Dashboard\\ServiceProvider"
             ]
         }
     }
