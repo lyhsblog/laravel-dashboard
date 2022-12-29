@@ -18,12 +18,5 @@
         "psr-4": {
             "Ybzc\\Laravel\\Dashboard\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-              "Ybzc\\Laravel\\Dashboard\\ServiceProvider"
-            ]
-        }
     }
 }
