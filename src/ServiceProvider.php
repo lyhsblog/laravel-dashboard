@@ -4,6 +4,7 @@ namespace Ybzc\Laravel\Dashboard;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
+    private $_packageTag = 'dashboard';
     /**
      * Register any application services.
      *

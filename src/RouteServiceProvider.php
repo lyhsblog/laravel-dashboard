@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
-    private $_packageTag = 'dashboard';
 
     public function register()
     {
