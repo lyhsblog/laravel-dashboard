@@ -1,0 +1,29 @@
+{
+    "name": "ybzc.gg/laravel-dashboard",
+    "description": "a backend dashboard for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "share",
+            "email": "ybzc.gg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.19",
+        "jeroennoten/laravel-adminlte": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ybzc\\Laravel\\Dashboard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ybzc\\Laravel\\Dashboard\\ServiceProvider"
+            ]
+        }
+    }
+}
